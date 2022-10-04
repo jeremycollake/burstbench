@@ -19,8 +19,6 @@
 #include <fstream>
 #include <iostream>
 
-#define _CRT_SECURE_NO_WARNINGS
-
 //---------privates--------------------------
 
 /*
@@ -59,7 +57,7 @@ CString md5wrapper::convToString(unsigned char* bytes)
 	int p = 0;
 	for (int i = 0; i < 16; i++)
 	{
-		::sprintf(&asciihash[p], "%02x", bytes[i]);
+		sprintf_s(&asciihash[p], 3, "%02x", bytes[i]);
 		p += 2;
 	}
 	asciihash[32] = '\0';
