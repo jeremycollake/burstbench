@@ -94,10 +94,6 @@ int main(int argc, char** argv)
 	int nSleepMS = DEFAULT_SLEEP_MS;
 	int nIterations = DEFAULT_ITERATIONS;
 
-	// Arguments will be stored here
-	std::string input;
-	std::string output;
-	// Configure options here
 	po::options_description desc("Options");
 	desc.add_options()
 		("help,h", "show help")
