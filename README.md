@@ -1,6 +1,6 @@
 # BurstBench
 
-BurstBench is a bursting load CPU benchmark tool. It is most useful to compare differences in power plan settings.
+BurstBench is a bursting load CPU benchmark tool. It useful to compare the effects of frequency scaling and core parking in different power plans.
 
 ## Usage
 
